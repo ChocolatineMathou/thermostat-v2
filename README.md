@@ -2,7 +2,7 @@
 
 ## Intro
 
-I decided to go back to this project, working on my own to make sure I was able to create a front-end app using Javascript.
+I decided to go back to this project, working on my own to make sure I was able to create a very basic front-end app. This project was built with **Javascript** and **jQuery**, and **Jasmine** fot the tests, using **TDD**.
 
 ## User stories
 
@@ -46,9 +46,17 @@ I would like a nice interface.
 
 ## Download and run project
 
+```
+$ git clone git@github.com:ChocolatineMathou/thermostat-v2.git
+$ cd thermostat-v2
+$ npm install
+$ npm run lint / it will run ESLint in the terminal
+$ open SpecRunner.html / it will open the tests in your favourite browser
+```
+
 ## Approach
 
-After setting up the project, I would like to ESLint as soon as possible to improve my syntax in Javascript and Travis CI to make sure this project will work in a clean environment.
+Right after setting up the project, I added ESLint to improve my syntax in Javascript. I translated each specification into user stories and started to TDD the logic.
 
 ## Specifications
 
