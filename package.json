@@ -1,0 +1,27 @@
+{
+  "name": "thermostat_v2",
+  "version": "1.0.0",
+  "description": "thermostat challenge",
+  "main": "Thermostat.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "eslint": "^5.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint src/Thermostat.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChocolatineMathou/thermostat-v2.git"
+  },
+  "author": "Mathilde Ferrand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChocolatineMathou/thermostat-v2/issues"
+  },
+  "homepage": "https://github.com/ChocolatineMathou/thermostat-v2#readme"
+}
