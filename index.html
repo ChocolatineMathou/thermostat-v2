@@ -7,13 +7,26 @@
     <link rel="stylesheet" href="class.css">
   </head>
   <body>
-    <h1 id="temperature"></h1>
-    <div id="up">+</div>
-    <div id="down">-</div>
-    <div id="reset">reset</div>
-    Power saving mode is <span id="power-saving-status">on</span>
-    <div id="power-saving-on">Power saving mode: on</div>
-    <div id="power-saving-off">Power saving mode: off</div>
+    <section>
+      <h1 id="temperature"></h1>
+      <div id="up">+</div>
+      <div id="down">-</div>
+      <div id="reset">reset</div>
+      Power saving mode is <span id="power-saving-status">on</span>
+      <div id="power-saving-on">Power saving mode: on</div>
+      <div id="power-saving-off">Power saving mode: off</div>
+    </section>
+    <section>
+      Current temperature: <span id="current-temp"></span>
+      <select id="current-city">
+        <option value="london">London, UK</option>
+        <option value="nantes">Nantes, FR</option>
+        <option value="seattle">Seattle, WA</option>
+        <option value="paris">Paris, FR</option>
+        <option value="toulouse">Toulouse, FR</option>
+        <option value="bordeaux">Bordeaux, FR</option>
+      </select>
+    </section>
 
     <script src="src/Thermostat.js"></script>
     <script src="interface.js"></script>
