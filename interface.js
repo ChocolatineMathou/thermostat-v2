@@ -4,11 +4,15 @@ $(document).ready(function() {
 
   $('#up').on('click', function() {
     thermostat.up();
-    $('#temperature').text(thermostat.temperature);
+    updateTemperature();
   })
 
   $('#down').on('click', function() {
     thermostat.down();
-    $('#temperature').text(thermostat.temperature);
+    updateTemperature();
   })
+
+  function updateTemperature() {
+    $('#temperature').text(thermostat.temperature);
+  };
 })
