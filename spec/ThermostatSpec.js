@@ -94,7 +94,6 @@ describe('Thermostat', function() {
         for (var i = 0; i < 6; i++) {
           thermostat.up();
         }
-        console.log(thermostat.getCurrentTemperature());
         expect(thermostat.energyUsage()).toEqual('high-usage');
       });
     });
